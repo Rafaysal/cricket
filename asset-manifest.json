@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cricket/static/css/main.51447fe2.chunk.css",
+    "main.js": "/cricket/static/js/main.227f9191.chunk.js",
+    "main.js.map": "/cricket/static/js/main.227f9191.chunk.js.map",
+    "runtime~main.js": "/cricket/static/js/runtime~main.37bf4802.js",
+    "runtime~main.js.map": "/cricket/static/js/runtime~main.37bf4802.js.map",
+    "static/js/2.a7bedd98.chunk.js": "/cricket/static/js/2.a7bedd98.chunk.js",
+    "static/js/2.a7bedd98.chunk.js.map": "/cricket/static/js/2.a7bedd98.chunk.js.map",
+    "index.html": "/cricket/index.html",
+    "precache-manifest.665aa39cb7c4e158a57c8827f2d581fc.js": "/cricket/precache-manifest.665aa39cb7c4e158a57c8827f2d581fc.js",
+    "service-worker.js": "/cricket/service-worker.js",
+    "static/css/main.51447fe2.chunk.css.map": "/cricket/static/css/main.51447fe2.chunk.css.map",
+    "static/media/bground.jpeg": "/cricket/static/media/bground.9cdeb1b3.jpeg",
+    "static/media/buzz.mp3": "/cricket/static/media/buzz.f13b473c.mp3",
+    "static/media/player.png": "/cricket/static/media/player.8126d6e3.png",
+    "static/media/player2.png": "/cricket/static/media/player2.be92b2d4.png",
+    "static/media/q1.jpg": "/cricket/static/media/q1.4d18a54f.jpg",
+    "static/media/tick.mp3": "/cricket/static/media/tick.63637ce9.mp3",
+    "static/media/win.mp3": "/cricket/static/media/win.35ff188a.mp3",
+    "static/media/yawn.png": "/cricket/static/media/yawn.82e3eeae.png"
+  }
+}
