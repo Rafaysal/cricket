@@ -1,33 +1,129 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+.options{
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+
+}
+.back{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container{
+  box-sizing:border-box;
   color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  text-align: center;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+  text-align: center;
+
+}
+
+
+.option{
+  border: 4px solid goldenrod;
+  font-size: 1.5rem;
+  background: #0575E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 3% auto;
+  width: 50%;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  display: block;
+  outline: none;
+}
+
+
+input:hover{
+ 
+  border-color: black;
+  color: black;
+  font-weight: bold;
+}
+
+.player{
+  position: absolute;
+  width: 20%;
+  margin-left: 75%;
+  margin-top: 10%;
+}
+.player2{
+  position: absolute;
+  width: 25%;
+  margin-left: 7%;
+  margin-top: 12%;
+}
+
+.btn{
+  font-size: 1.5rem;
+  width: 30%;
+  display: block;
+  margin: 5% auto;
+  padding: 1%;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  border: 4px solid white;
+}
+
+
+.btn:hover{
+  background-color: green;
+}
+
+.flexer{
+  display: flex;
+  justify-content: center;
+}
+.fifty{
+  margin-left: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 1.1rem;
+  background: black;
+  color: white;
+border-radius: 100px;
+  border: 3px solid white;
+}
+
+.fifty:hover{
+  background-color: green;
+}
+
+.restart{
+  font-size: 1.5rem;
+  width: 30%;
+  display: block;
+  margin: 5% auto;
+  padding: 1%;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  border: 4px solid white;
+}
+
+.restart:hover{
+  background-color: green;
+}
+.fiftyHead{
+  margin-bottom: 2%;
+}
+
+span{
+  color: deeppink;
+  
 }
